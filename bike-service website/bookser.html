@@ -1,0 +1,47 @@
+
+<html>
+<head>
+     <title>Bike service</title>
+	 <link rel="stylesheet" type="text/css" href="css/style4.css">
+</head>
+<body>
+    <header>
+	    <div class="">
+		
+		     <div class="logo">
+		         <a href="home.html">  <img src="logo.jpeg" align="right"></a>
+		     </div><br><br><br>
+        </div>
+	<head>
+     <style>
+		
+button{
+background:#ffffff;
+	width:250px;
+	height:40px;
+	border: #008000 ;
+}
+		</style>
+		</head>
+		<div class="appointment">
+	   <form method="post" action="bookser.php">
+	   
+	   <b>RC_NO :</b>
+       <input type="text" name="RC_NO" placeholder="Enter your RC_NO" required> <br><br>
+	   	<b>SERVICE</b>
+		   <select name="Type_of_service">
+		      <option>---Select----</option>
+	   	    	<option value="GENERAL SLIVER" > GENERAL SERVICE</option>
+	   	    	<option value="GENERAL GOLD" > WATER SERVICE</option>
+	   	    	<option value="GENERAL PLATINUM" > REPAINTING</option>
+	   	    	<option value="ACCIDENT">ACCIDENT</option>
+	   	    </select><br><br>
+	   	    
+	   	    <b>Date      </b> <input type="date" name="ID" placeholder="select date " required><br><br>
+	   	    <b>time        </b><input type="time" name="In_time" placeholder="time " required><br><br><br>
+			<a href="bookser.php"><button>submit</button></a>
+	   	</form>
+	 </div>
+    
+</body>
+</html>
